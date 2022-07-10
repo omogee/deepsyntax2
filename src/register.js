@@ -21,7 +21,6 @@ function Register() {
       </div>           
       </div>
     </div>
-      <Navbar />
       
             <div className='registerdiv' style={{position:"absolute",padding:"20px 30px",backgroundColor:"white",opacity:"0.9"}}>
                 <h1 style={{color:"grey"}}>Sign Up </h1>

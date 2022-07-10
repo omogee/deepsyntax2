@@ -18,18 +18,19 @@
 .centerdiv{height:inherit}
 }
 @media all and (max-width:600px) {
-  .navbrand{width:20%}
+  .navbrand{width:27%}
   .section_1{padding:0 1%}
-.logindiv{left:0;width:100%;border-radius: 0px;top:10%}
-.registerdiv{left:0;width:100%;border-radius: 0px;top:10%}
+.logindiv{left:0;width:100%;border-radius: 0px;top:20%}
+.registerdiv{left:0;width:100%;border-radius: 0px;top:20%}
 .centerdiv{height:inherit}
 }
 @media all and (max-width:520px) {
+  .navbrand{width:30%}
   .centerdiv{height:inherit}
   .bardiv{display:block}
   .navdivlist{display: none; }
-  .navdiv_sm{display:block;border-right:3px solid lightgrey;position:absolute;width:0px;overflow: hidden;text-transform: uppercase;opacity: 0.9;transition-property: "width";transition-duration: 1s;transition-timing-function: linear;font-weight: bold;background-color: white;z-index: 10;}
-.logindiv{left:0;width:100%;border-radius: 0px;top:10%}
-.registerdiv{left:0;width:100%;border-radius: 0px;top:10%}
+  .navdiv_sm{display:block;border-right:3px solid lightgrey;position:absolute;width:0px;height:0px;overflow: hidden;text-transform: uppercase;opacity: 0.9;transition-property: "width";transition-duration: 1s;transition-timing-function: linear;font-weight: bold;background-color: white;z-index: 10;}
+.logindiv{left:0;width:100%;border-radius: 0px;top:20%}
+.registerdiv{left:0;width:100%;border-radius: 0px;top:20%}
 .section_1_img{padding:auto;margin:auto}
 }

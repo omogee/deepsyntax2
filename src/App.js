@@ -125,8 +125,8 @@ function App() {
      
         </div>
         <div className='row' style={{margin:"0",padding:"30px",backgroundColor:"#FF6347",backgroundColor:"indianred"}}>
-          <div className="col-xs-12 col-md-6">
-          <div style={{display:'flex',padding:"20px"}}>
+          <div className="col-xs-12 col-md-6 ">
+          <div style={{display:'flex',padding:"2px",marginBottom:"20px"}}>
           <div  style={{width:"50%",margin:"0",color:"white"}}>
              <p style={{fontWeight:"bold",textTransform:"uppercase"}}>About HORMEL</p>
                <p>About Us</p>
@@ -139,7 +139,7 @@ function App() {
                <p>Blogs</p>
             </div>
             <div  style={{width:"50%",color:"white"}}>
-             <p style={{fontWeight:"bold",textTransform:'uppercase'}}>Our Locations <span className='fa fa-globe fa-2x'></span></p>
+             <p style={{fontWeight:"bold",textTransform:'uppercase'}}>Our Locations <span style={{color:"lightblue"}} className='fa fa-globe fa-2x'></span></p>
                <p>Lagos Island, Lagos State</p>
                <p>Lagos Mainland, Lagos State</p>
                <p>Shagamu, Ogun State</p>
