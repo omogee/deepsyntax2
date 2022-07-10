@@ -25,7 +25,7 @@
 .centerdiv{height:inherit}
 }
 @media all and (max-width:520px) {
-  .navbrand{width:30%}
+  .navbrand{width:35%}
   .centerdiv{height:inherit}
   .bardiv{display:block}
   .navdivlist{display: none; }
