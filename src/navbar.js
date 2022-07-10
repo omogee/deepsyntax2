@@ -3,6 +3,7 @@ import {Link} from "react-router-dom"
 
 
 function Navbar() {
+    
     const [width, setwidth] = useState("")
 
     useEffect(()=>{

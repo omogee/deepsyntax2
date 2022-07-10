@@ -7,18 +7,19 @@ import Navbar from './navbar';
 import {Link} from "react-router-dom"
 
 function App() {
+  document.title="Welcome! Hormel Home Page"
   return (
     <div>
       <div style={{width:"100%",height:"100%",position:"fixed",backgroundImage:`url(${background})`,
        backgroundRepeat:"no-repeat",backgroundSize:"cover"}}>
       </div>
-      <div className='' style={{position:"absolute", top:"0px", width:"100%"}}>
-        <div style={{marginTop:'10%',width:"70%",textAlign:"left",padding:"20px"}}>
+      <div  style={{position:"absolute", top:"0px", width:"100%"}}>
+        <div  style={{marginTop:'20%',marginBottom:"10%",width:"70%",textAlign:"left",padding:"20px"}}>
       <h1 style={{color:"white",fontSize:"60px"}}>We Make Your Loved Ones Feel Right at Home</h1>
         </div>
-
-            <div className='row container'>
-              <div style={{backgroundColor:"rgba(0,0,0,0.4)",width:"100%"}} className="col-12 col-sm-6 " >
+           <div className='container'>
+            <div className='row centerdiv' >
+              <div style={{backgroundColor:"rgba(0,0,0,0.4)",height:"100%"}} className="col-12 col-sm-6" >
                 <div style={{textAlign:"center", color:"white",justifyContent:"center",padding:"45px",height:"100%"}}>
                   <p style={{fontWeight:"bold",textAlign:"left",fontSize:"20px"}}>Welcome Dear User,</p>
                   <h2 style={{fontSize:"30px"}}>We are dedicated to making your loved one feel right at home!</h2>
@@ -39,7 +40,7 @@ function App() {
                 </div>
               </div>
             </div>
-        
+            </div>
         <div style={{backgroundColor:"white",padding:"0",margin:"0",marginBottom:"10%"}}>
         <div className='container'>
             <div className='row'>
@@ -53,7 +54,8 @@ function App() {
           </div>
 
         
-            <div className='row' >
+           <div className='container'>
+           <div className='row' >
               <div className='col-12 col-md-7'>
                 <div style={{padding:"15px"}}>
                   <h1 style={{color:"#CD5C5C",fontSize:"50px"}}> Our Services </h1>
@@ -85,15 +87,15 @@ function App() {
                   <p style={{color:"grey",fontSize:"18px"}}>Medication and incontinence management Lensed Vocational Nurse available</p>
                 </div>
               </div>
-          
+              </div>
+                  <hr/>   
            
-            <div style={{width:"100%",marginTop:"10%"}}>
-            <hr/>
+ 
              <div className='row'>
                <div className='col-12 col-md-2'>
-                 <img  style={{width:"100%",border:"10px solid #CD5C5C",borderRadius:"50%"}} src={`https://cdn.pixabay.com/photo/2018/08/28/12/41/avatar-3637425__340.png`}/>
+                 <img  style={{border:"10px solid #CD5C5C",borderRadius:"50%",width:"100%"}} src={`https://cdn.pixabay.com/photo/2018/08/28/12/41/avatar-3637425__340.png`}/>
                </div>
-               <div className='col-xs-12 col-md-10'>
+               <div className='col-12 col-md-10'>
                <div style={{padding:"20px  50px"}}>
                   <h2 style={{color:"brown"}}>HAPPY CLIENT <span style={{color:"lightgrey"}}>===</span> HAPPY BUSINESS</h2>
                   <p style={{color:"grey",fontSize:"18px"}}> We also Provide essential aftersales service to ensure our clients are happy and satisfied. </p>
@@ -101,7 +103,6 @@ function App() {
                 </div>
                </div>
              </div>
-            </div>
 
             <div style={{width:"100%",marginTop:"10%"}}>
             <hr/>
@@ -121,7 +122,8 @@ function App() {
 
            
             <hr/>
-          </div>
+         
+           </div>
      
         </div>
         <div className='row' style={{margin:"0",padding:"30px",backgroundColor:"#FF6347",backgroundColor:"indianred"}}>

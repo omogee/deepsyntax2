@@ -4,6 +4,7 @@ import {Link} from "react-router-dom"
 import background from "./wallpaper1.jpeg"
 
 function Register() {
+  document.title="Hormel Registration Page"
     return ( 
       <div>
           <div style={{display:"flex"}}>

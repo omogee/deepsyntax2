@@ -4,6 +4,7 @@ import Navbar from './navbar';
 import background from "./wallpaper3.jpeg"
 
 function Login() {
+    document.title="Hormel Login Page"
     return ( 
         <div>
        <div style={{width:"100%",height:"100%",backgroundSize:"contain",position:"fixed",backgroundImage:`url(${background})`,

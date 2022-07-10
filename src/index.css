@@ -7,6 +7,7 @@
 .logindiv{left:35%;border-radius: 10px;width:30%;top:15%}
 .registerdiv{left:35%;border-radius: 10px;width:30%;top:15%}
 .centerdiv{height:50vh}
+.col-12{height:100% !important}
 
 @media all and (max-width:900px) {
   .navbrand{width:15%}
